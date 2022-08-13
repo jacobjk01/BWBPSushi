@@ -1,5 +1,25 @@
+body {
+  background-color: #873600;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  height: 100%;
+}
+
+.rice {
+  position: fixed;
+  width: 90%;
+  height: 100%;
+}
+
+.salmon {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
 }
 
 .App-logo {
